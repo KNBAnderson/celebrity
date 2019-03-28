@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Musician match up</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Find your favorite musician!</h1>
+    <form>
+      <div class="gender-question">
+        <label for="gender">Do you prefer male or female musicians?</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="both">I like both</option>
+        </select>
+      </div>
+
+      <div class="age-question">
+        <label for="age">What period do you prefer?</label>
+        <select id="age">
+          <option value="80s">80s</option>
+          <option value="90s">90s</option>
+          <option value="00s">00s</option>
+          <option value="everything">Every music</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-info">Submit</button>
+
+    </form>
+
+    <div class="musicians">
+      <div class="musician male 90s" id="backstreet">
+        <h4>Backstreet Boys</h4>
+        <img src="img/backstreet.jpg" alt="This is a picture of the Backstreet Boys.">
+      </div>
+    </div>
+
+    <div class="musician female 90s" id="spice">
+      <h4>Spice Girls</h4>
+      <img src="img/spice.jpg" alt="This is a picture of the Spice Girls.">
+    </div>
+
+    <div class="musician female 80s" id="madonna">
+      <h4>Madonna</h4>
+      <img src="img/madona.jpg" alt="This is a picture of Madonna.">
+    </div>
+
+    <div class="musician male 80s" id="mercury">
+      <h4>Freddie Mercury</h4>
+      <img src="img/mercury.jpg" alt="This is a picture of Freddie Mercury.">
+    </div>
+
+    <div class="musician male 00s" id="lovasi">
+      <h4>Lovasi Andras</h4>
+      <img src="img/lovasi.jpg" alt="This is a picture of Lovasi Andras.">
+    </div>
+
+    <div class="musician female 00s" id="beyonce">
+      <h4>Beyonce</h4>
+      <img src="img/beyonce.jpg" alt="This is a picture of Beyonce.">
+    </div>
+
+
+  </div>
+</body>
+</html>
